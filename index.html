@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Operators and Expressions</title>
+</head>
+<body>
+    <h1>Operators and Expressions</h1>
+    <hr>
+    <br>
+    <span>QUESTION 1.</span>
+    <span class="span1">Add two Numbers</span>
+    <P>You are provided with two numbers A and B.Your task is to add these two numbers.</P>
+    <span>SOLUTION.</span>
+    <pre>const AddTwoNumbers = (a,b) => {
+        let result = a+b;
+        return result;
+      };</pre>
+
+    <span>Input:</span>  2 5 <br>
+    <span>Output:</span> 7 
+    <br><br>
+    <hr>
+    <br>
+
+    <span>QUESTION 2.</span>
+    <span class="span1">Find if the conditions are obeyed or not?</span>
+    <P>You are given two number first as A and second as B and check if both conditions (A<10 and A>B) are satisfied or not with the help of operators.</P>
+    <span>SOLUTION.</span>
+    <pre>const Is_Valid = (a,b) => {
+        return (a<10) && (a>b);
+      };</pre>
+      <span>Input:</span> 5 3 <br>
+      <span>Output:</span> true
+      <br><br>
+      <hr>
+      <br>
+
+      <span>QUESTION 3.</span>
+    <span class="span1">Check the conditons</span>
+    <P>You are given two numbers A and B. You need to do the following checks: 
+       <br>1. If both are divisible by 10 console true.
+       <br>2. If both are not divisible by 10 console false.
+       <br>3. If one of them only is divisible by 10 console true.
+        <br>Use operator to do this</P>
+    <span>SOLUTION.</span>
+    <pre>const Check = (A, B) => 
+        {
+          return A%10===0 || B%10===0;
+        };</pre>
+      <span>Input:</span> 12 20 <br>
+      <span>Output:</span> true
+      <br><br>
+      <hr>
+      <br>
+
+      <span>QUESTION 4.</span>
+    <span class="span1" >Find the first digit of a 4 digit number</span>
+    <p>You are provided a four digit number N only. Your task is to print out the first digit of that number.</p>
+    <span>SOLUTION.</span>
+    <pre>const First_Digit = (n) => {
+        return Math.floor(n/1000);
+     };</pre>
+      <span>Input:</span>4567<br>
+      <span>Output:</span>4
+      <br><br>
+      <hr>
+      <br>
+
+      <span>QUESTION 5.</span>
+    <span  class="span1">Find the last digit of a 4 digit number</span>
+    <p>You are provided a four digit number N only. Your task is to print out the last digit of that number.</p>
+    <span>SOLUTION.</span>
+    <pre>const Last_Digit = (n) => {
+        return n%10;
+     };</pre>
+      <span>Input:</span>4567<br>
+      <span>Output:</span>7
+      <br><br>
+      <hr>
+      <br>
+
+      <span>QUESTION 6.</span>
+      <span class="span1">Find the remainder</span>
+      <p>You are provided with two numbers A and B where A as  divisor and B as  dividend.Your task is find the remainder.</p>
+      <span>SOLUTION.</span>
+      <pre>const Find_the_remainder = (a,b) => {
+        result = b%a;
+        return result;
+     };</pre>
+        <span>Input:</span>2 9<br>
+        <span>Output:</span>1
+        <br><br>
+        <hr>
+        <br>
+
+        <span>QUESTION 7.</span>
+      <span class="span1">Multipy two Numbers</span>
+      <p>You are provided with two numbers A and B. Your task is to multiply these two numbers.</p>
+      <span>SOLUTION.</span>
+      <pre>const Multiply_two_number = (a,b) => {
+        return a*b;
+    };</pre>
+        <span>Input:</span>2 5
+        <br>
+        <span>Output:</span>10
+        <br><br>
+        <hr>
+        <br>
+
+        <span>QUESTION 8</span>
+      <span class="span1">Marks Calculator</span>
+      <p>Shyam has got his marks in three subjects as A, B, and C (out of 100).Write a program to calculate his total marks and his average.</p>
+    <span>SOLUTION.</span>
+      <pre>const Sum = (A, B, C) => 
+        {
+         result = A+B+C;
+         return result;
+        };
+        
+        const Average = (A, B, C) => 
+        {
+         ans = (A+B+C)/3;
+         return ans;
+        };</pre>
+        <span>Input:</span>50 20 100
+        <br>
+        <span>Output:</span>170
+        56.67
+        <br><br>
+        <hr>
+        <br>
+        
+</body>
+</html>
